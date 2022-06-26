@@ -6,6 +6,13 @@ app.get('/', (req, res) => {
     res.send('Hello world and start')
 })
 
+app.get('/bots', (req, res) => {
+    res.json({
+        type: 'message',
+        data: 'get req to all bots'
+    })
+})
+
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
