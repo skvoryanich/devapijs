@@ -1,0 +1,23 @@
+{
+  "name": "devapijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skvoryanich/devapijs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skvoryanich/devapijs/issues"
+  },
+  "homepage": "https://github.com/skvoryanich/devapijs#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "node": "^18.4.0"
+  }
+}
